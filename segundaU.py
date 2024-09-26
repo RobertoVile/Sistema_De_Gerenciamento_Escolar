@@ -1,6 +1,6 @@
 def segunda_unidade():
     # Declarando as variáveis como globais
-    global portugues_segunda_unidade, matematica_segunda_unidade, biologia_segunda_unidade, fisica_segunda_unidade, ingles_segunda_unidade,filosofia_segunda_unidade, artes_segunda_unidade, quimica_segunda_unidade, historia_segunda_unidade, sociologia_segunda_unidade, projeto_vida_segunda_unidade
+    global portugues_segunda_unidade, matematica_segunda_unidade, biologia_segunda_unidade, fisica_segunda_unidade, ingles_segunda_unidade,filosofia_segunda_unidade, artes_segunda_unidade, quimica_segunda_unidade, historia_segunda_unidade
     
     # Inicializando as variáveis
     portugues_segunda_unidade = 0
@@ -12,9 +12,6 @@ def segunda_unidade():
     artes_segunda_unidade = 0
     quimica_segunda_unidade = 0
     historia_segunda_unidade = 0
-    sociologia_segunda_unidade = 0
-    projeto_vida_segunda_unidade = 0
-    
     # Retornando os valores
     return (portugues_segunda_unidade, matematica_segunda_unidade, biologia_segunda_unidade, fisica_segunda_unidade, ingles_segunda_unidade,
-            filosofia_segunda_unidade, artes_segunda_unidade, quimica_segunda_unidade, historia_segunda_unidade, sociologia_segunda_unidade, projeto_vida_segunda_unidade)
+            filosofia_segunda_unidade, artes_segunda_unidade, quimica_segunda_unidade, historia_segunda_unidade)

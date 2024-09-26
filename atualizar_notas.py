@@ -56,10 +56,7 @@ def notas():
                     nota = float(input("Informe a Nota de Química: "))
                 elif resultado[0] == "historia":
                     nota = float(input("Informe a Nota de História: "))
-                elif resultado[0] == "sociologia":
-                    nota = float(input("Informe a Nota de Sociologia: "))
-                elif resultado[0] == "projeto_vida":
-                    nota = float(input("Informe a Nota de Projeto de Vida: "))
+        
 
                 else:
                     print("Matéria não reconhecida!")
@@ -88,9 +85,9 @@ def notas():
                 conexao.conn.execute(atualizar_notas, (nota, matricula))
                 conexao.conn.commit()
                 print("Nota atualizada com sucesso!")
-                resultado = input("Deseja continuar alterando as notas? ('1' para sim e '0' para não) ")
+                resultado2 = input("Deseja continuar alterando as notas? ('1' para sim e '0' para não) ")
 
-                if resultado != '1':
+                if resultado2 != '1':
                     break
                 
 

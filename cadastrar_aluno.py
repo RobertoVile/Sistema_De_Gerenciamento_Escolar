@@ -57,17 +57,14 @@ def cadastro():
             portugues_primeira_unidade, matematica_primeira_unidade, biologia_primeira_unidade,
             fisica_primeira_unidade, ingles_primeira_unidade, filosofia_primeira_unidade,
             artes_primeira_unidade, quimica_primeira_unidade, historia_primeira_unidade,
-            sociologia_primeira_unidade, 
             portugues_segunda_unidade, matematica_segunda_unidade, biologia_segunda_unidade,
             fisica_segunda_unidade, ingles_segunda_unidade, filosofia_segunda_unidade,
-            artes_segunda_unidade, quimica_segunda_unidade, historia_segunda_unidade,
-            sociologia_segunda_unidade, 
+            artes_segunda_unidade, quimica_segunda_unidade, historia_segunda_unidade, 
             portugues_terceira_unidade, matematica_terceira_unidade, biologia_terceira_unidade,
             fisica_terceira_unidade, ingles_terceira_unidade, filosofia_terceira_unidade,
             artes_terceira_unidade, quimica_terceira_unidade, historia_terceira_unidade,
-            sociologia_terceira_unidade, 
             relatorio1, relatorio2, relatorio3, relatorio4, relatorio5 ,relatorio6, relatorioA1, relatorioA2, relatorioA3
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?,?,?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """
 
         # Valores a serem inseridos
@@ -95,7 +92,6 @@ def cadastro():
             primeiraU.artes_primeira_unidade,
             primeiraU.quimica_primeira_unidade,
             primeiraU.historia_primeira_unidade,
-            primeiraU.sociologia_primeira_unidade,
             segundaU.portugues_segunda_unidade,
             segundaU.matematica_segunda_unidade,
             segundaU.biologia_segunda_unidade,
@@ -105,7 +101,6 @@ def cadastro():
             segundaU.artes_segunda_unidade,
             segundaU.quimica_segunda_unidade,
             segundaU.historia_segunda_unidade,
-            segundaU.sociologia_segunda_unidade,
             terceiraU.portugues_terceira_unidade,
             terceiraU.matematica_terceira_unidade,
             terceiraU.biologia_terceira_unidade,
@@ -115,7 +110,6 @@ def cadastro():
             terceiraU.artes_terceira_unidade,
             terceiraU.quimica_terceira_unidade,
             terceiraU.historia_terceira_unidade,
-            terceiraU.sociologia_terceira_unidade,
             relatorio1,
             relatorio2,
             relatorio3,
